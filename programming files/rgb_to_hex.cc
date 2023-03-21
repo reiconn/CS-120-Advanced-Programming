@@ -2,6 +2,7 @@
 #include <sstream>
 #include <iomanip>
 
+// Change colors from rbg to hex!!!
 std::string rgb_to_hex(int r, int g, int b)
 {
     r = std::max(0, std::min(255, r));
