@@ -8,6 +8,7 @@ with open("numbers.html", "w") as f:
             f.write("<tr><td></td><td>{}</td></tr>\n".format(i))
     f.write("</table>\n</body>\n</html>")
 
+# Jackson, adding 2nd comment here
 with open("numbers.html", "r") as f:
     print(f.read())
     
